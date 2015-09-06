@@ -1,0 +1,13 @@
+{
+    "name": "PhotoTab",
+    "version": "0.1",
+    "description": "PhotoTab",
+    "chrome_url_overrides": {
+        "newtab": "newTab.html"
+    },
+    "permissions": [
+        "storage", "tabs", "*://*.facebook.com/*"
+    ],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://connect.facebook.net; object-src 'self'"
+}
